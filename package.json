@@ -1,0 +1,26 @@
+{
+  "name": "npm-buhlmann-ZH-L16",
+  "version": "0.0.0",
+  "description": "Buhlmann’s ZH-L16 decompression node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover test/test-runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oliverjohnstone/npm-buhlmann-ZH-L16.git"
+  },
+  "author": "Oliver Johnstone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverjohnstone/npm-buhlmann-ZH-L16/issues"
+  },
+  "homepage": "https://github.com/oliverjohnstone/npm-buhlmann-ZH-L16",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "glob": "^4.3.5"
+  }
+}
