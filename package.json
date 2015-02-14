@@ -4,7 +4,11 @@
   "description": "Buhlmann’s ZH-L16 decompression node module",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover test/test-runner.js"
+    "lint": "jshint .",
+    "checkStyle": "jscs .",
+    "pretest": "npm run-script lint && npm run-script checkStyle",
+    "test": "istanbul cover test/test-runner.js",
+    "posttest": "istanbul check-coverage && rm -rf coverage"
   },
   "repository": {
     "type": "git",
